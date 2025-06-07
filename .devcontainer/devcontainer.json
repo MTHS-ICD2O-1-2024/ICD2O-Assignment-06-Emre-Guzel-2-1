@@ -3,14 +3,6 @@
     "postCreateCommand": "bash ./.devcontainer/startup.sh",
     "customizations": {
         "vscode": {
-            "extensions": [
-                "esbenp.prettier-vscode",
-                "hediet.vscode-drawio",
-                "oderwat.indent-rainbow",
-                "PKief.material-icon-theme",
-                "sohamkamani.code-eol",
-                "ritwickdey.LiveServer"
-            ],
             "settings": {
                 "editor.autoClosingQuotes": "always",
                 "editor.bracketPairColorization.enabled": true,
