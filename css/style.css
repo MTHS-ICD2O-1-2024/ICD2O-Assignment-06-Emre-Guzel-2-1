@@ -45,9 +45,12 @@ body {
 }
 
 #result{
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-top: 0;
   margin-right: 2rem;
+  line-height: 2rem;
+  font-weight: 900;
+  width: 40%;
 }
 .tech-news{
   width: 20%;
