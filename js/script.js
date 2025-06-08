@@ -13,10 +13,10 @@ async function newsAPI() {
     const jsonData = await result.json()
 
     // Show the title and description of the first news article
-    const firstTitle = jsonData.results[0].title
+    const title = jsonData.results[0].title
     const description = jsonData.results[0].description
     document.getElementById("result").innerHTML = `
-      <h2>${firstTitle}</h2>
+      <h2>${title}</h2>
       <p>${description}</p>
     `
   } catch (error) {
